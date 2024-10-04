@@ -1,0 +1,98 @@
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  color: #ff6347;
+  font-size: 3em;
+  text-shadow: 2px 2px #ffa07a;
+}
+
+img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px 0; /* Margin above and below the image */
+}
+
+h2 {
+  color: #4682b4;
+  font-size: 1.8em;
+  margin: 20px 0;
+}
+
+/* Buttons styling */
+button {
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #ffa07a;
+}
+
+/* Story output styles */
+#storyOutput {
+  background-color: #ffebcd;
+  border: 2px solid #ff6347;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #4682b4;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+h3 {
+  margin-top: 40px;
+  color: #8a2be2;
+  font-size: 1.5em;
+}
+
+footer {
+  margin-top: 40px; 
+  padding: 10px;  
+  color: rgb(173, 166, 166); 
+  position: relative; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+footer p {
+  margin: 2px 0; 
+  font-size: 0.9em; 
+}
+/* Make the page responsive */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2.5em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  button {
+      padding: 10px 20px;
+      font-size: 1em;
+  }
+}
+
